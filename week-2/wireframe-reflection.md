@@ -1,5 +1,5 @@
 [Wireframe for site index](/week-2/imgs/wireframe-index.png)
-[Wifeframe for blog page](/week-2/imgs/wireframe-blog-index)
+[Wifeframe for blog page](/week-2/imgs/wireframe-blog-index.png)
 
 ##What is a wireframe?
 A wireframe is a blueprint that serves as a visual guide representing a site's skeletal framework. It's the bare bones design a developer uses when beginning a web project. It is usually completed in black and white and lays out the essential structures of a site (header, footer, pictures, navigaiton bars, search bars, etc.)
