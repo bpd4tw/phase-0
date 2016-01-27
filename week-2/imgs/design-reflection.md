@@ -1,4 +1,3 @@
-[My site map!](/Users/briandonahue/Desktop/DBC Stuff/phase-0/week-2/imgs/site-map.png)
 
 ##What are the 6 Phases of Web Design?
 The six phases of Web Design are (1)gathering information, (2)planning, (3)design, (4)development, (5)testing and delivery and (6)maintenance. Gathering information involves deciding on a target audience and figuring out goals. Planning usually involves the development of a site map. Design may incude prototypes such as A&B testing. Development occurs when the actual code is written. Testing and delivery is a step performed to ensure the website works across the myriad of browsers and operating systems present today. Lastly, maintenance involves regular checkups and recoding when bugs arise.
@@ -22,3 +21,5 @@ User experience  (UX), put simply, is how a person feels about a site. UX design
 
 ##Which parts of the challenge did you find tedious?
 I found the plethora of reading material kind of tedious. It's all interesting and useful, but it began to repeat itself after visiting a couple websites. I understand, though, that it's best to establish a firm foundation and explain the methodology behind site design before jumping feet first.
+
+[My site map!](/week-2/imgs/site-map.png)
