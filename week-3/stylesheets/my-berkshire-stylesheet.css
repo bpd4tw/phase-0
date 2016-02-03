@@ -1,0 +1,115 @@
+html {
+  color: #000080;
+  background-color: #ffffff;
+}
+
+header {
+  text-align: center;
+  white-space: nowrap;
+  border-bottom: 1px solid black;
+}
+
+span {
+  font-size: 2em;
+  color: #00008b;
+  font-weight: bold;
+}
+
+header p {
+  font-weight: bold;
+}
+header p:first-child {
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+}
+
+header p:nth-child(2) {
+  margin:0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: .30em;
+}
+
+header p:nth-child(3) {
+  margin:0px 0px 0px 0px;
+  padding:0px 0px 0px 0px;
+  font-size: .60em;
+}
+
+header p:nth-child(4) {
+  margin:0px 0px 0px 0px;
+  padding: 0px 0px 10px 0px;
+  font-size: .90em;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+#left-side {
+  float: left;
+  margin-right: 5px;
+  margin-left:40px;
+  left: 10%;
+}
+
+#right-side {
+  float:left;
+  width:35%;
+  right: 10%;
+}
+
+section li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+li p {
+  font-size: .75em;
+  color: #000000;
+}
+
+footer {
+  margin-top: 500px;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid black;
+}
+
+footer p:first-child {
+  text-align: center;
+  font-size: .50em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+footer p:nth-child(2) {
+  font-size: .65em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+footer p:nth-child(4) {
+  font-size:.65em;
+}
+
+/*
+##What is important to know when linking an external file (like a stylesheet) to an HTML file?
+Obviously, it's important to know where the HTML and CSS files are located locally so your "href" attribute is accurately linked. Also, knowing the "link" element and its attributes (rel, type and href) is pivotal for linking the two files.
+
+##What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+We struggled with our positioning a bit. At first, we used absolute positioning and then came to recognize the problems it caused. We decided to seperate our page into the sections we used in our HTML and then "float" our <ul>'s.' Also, the "text-align" propert came in handy quite a bit.
+
+What CSS did you use to modify the element style (like size, color, etc.)?
+We used a good bit of CSS to modify the element styles in our code. Not only did we adjust font size (using em's instead of px's), but we also modified borders, padding and links using the respectice CSS properties.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+We didn't end up using classes, seeing how little HTML we had, but we did utilize ID's. Because we only used our two floated <ul>'s once each, we decided it was best to format their CSS using ID's.  Had our HTML been larger with a plethora of repeated elements, we would have implemented more classes for CSS use.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+I may be a little biased, but I'd have to say our code was a bit cleaner when considering best practices. Their code was odd in that they did their styling directly in the HTML file and inline. Although it is simpler and more ready accessible, that type of HTML/CSS coding will fall apart with larger documents. If you compare it to ours, you'll see how much cleaner and easier it is to understand what techniques and strategy we employed while making our site.
+
+*/
