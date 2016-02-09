@@ -8,6 +8,7 @@ Numbes without decimal points are integers. They are whole numbers that are not 
 Most programs only use integers, seeing as it would look funny having decimals for emails or songs.
 Floats, though, are used for academic reasons more often and for 3D graphics. Money programs use integers because it matters how exact their result are.
 
+<<<<<<< HEAD
 ```
 puts 24*365
 ```
@@ -16,3 +17,14 @@ puts 24*365
 puts 60*24*365*10
 5256000
 ```
+=======
+'''
+puts 24*365
+
+'''
+
+'''
+puts 60*24*365*10
+5256000
+'''
+>>>>>>> acbe96a66534acd96d210552de3d72f26531296c
