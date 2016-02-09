@@ -1,3 +1,34 @@
-body{
-  background-color: white;
+.github_title{
+  font-weight:bold;
+  background-color:blue;
+}
+
+header>h1 {
+  font-size:2em;
+  border-bottom:.1em solid black;
+}
+
+header p {
+  background-color:#585858;
+}
+
+.column-1{
+  border-radius:15px;
+  border:1px dashed green;
+  width:49%;
+  float:left;
+}
+
+.column-2{
+  width:50%;
+  float:right;
+}
+
+footer{
+  background-color:#585858;
+  clear:both;
+}
+
+.column-1, footer{
+  background-color:red;
 }
