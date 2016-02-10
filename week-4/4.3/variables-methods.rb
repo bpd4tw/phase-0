@@ -1,3 +1,7 @@
+#[Defining a method](define-method/my_solution.rb)
+#[Return a formatted address](address/my_solution.rb)
+#[Defining Math Methods](math/my_solution.rb)
+
 puts "Hi, what's your first name?"
 first_name=gets.chomp
 puts "Nice. Now how about your middle?"
@@ -28,7 +32,3 @@ puts "Try this number out: " + better.to_s + ". Now that's a big number!"
 
 ##What was confusing about this material? What made sense?
 ###The material is all pretty straight forward. I just need to make sure to pay attention to smaller details like "puts" vs "return" when writing methods.
-
-[Defining a method](define-method/my_solution.rb)
-[Return a formatted address](address/my_solution.rb)
-[Defining Math Methods](math/my_solution.rb)
