@@ -6,12 +6,12 @@
 # Your Solution Below
 def leap_year?(year)
   if year%400 == 0
-    puts "true"
+    true
   elsif year%100 == 0
-      puts "false"
+    false
   elsif year%4 ==0
-     puts "true"
+    true
   else
-    puts "false"
-      end
+    false
   end
+end
