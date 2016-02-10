@@ -7,10 +7,10 @@
 
 def good_guess?(guess)
   if guess>42
-    return false
+   false
   elsif guess<42
-    return false
+    false
   else
-    return true
+   true
   end
 end

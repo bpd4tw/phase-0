@@ -20,3 +20,4 @@ describe 'leap_year?' do
   it 'returns false for years not divisible by 4' do
     expect(leap_year?(3)).to be false
   end
+end

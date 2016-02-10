@@ -1,4 +1,4 @@
-require_relative "my_solution"
+require_relative "my_solutions"
 
 describe 'welcome' do
   it 'is defined as a method' do
