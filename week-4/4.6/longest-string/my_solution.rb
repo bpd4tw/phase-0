@@ -13,26 +13,14 @@
 
 # Your Solution Below
 def longest_string(list_of_words)
-   longest_word = nil
-
-  def longest_word(sentence)
-  words = sentence.split(" ")
-
-
-
-  word_idx = 0
-  while word_idx < words.length
-    current_word = words[word_idx]
-
-    if longest_word == nil
-      longest_word = current_word
-    elsif longest_word.length < current_word.length
-      longest_word = current_word
+  largest_word=list_of_words.first
+  list_of_words.each do |current_word|
+    if list_of_words.nil?
+      return nil
     end
-
-    word_idx += 1
+    if current_word.length>largest_word.length
+      largest_word=current_word
+    end
   end
-
-  return longest_word
-end
+  return largest_word
 end
