@@ -14,13 +14,13 @@
 #Your Solution Below
 def shortest_string(list_of_words)
   small_word=list_of_words.first
-list_of_words.each do |current_word|
-  if list_of_words.nil?
-    return nil
+  list_of_words.each do |current_word|
+    if list_of_words.nil?
+      return nil
+    end
+    if current_word.length<small_word.length
+      small_word=current_word
+    end
   end
-  if current_word.length<small_word.length
-    small_word=current_word
-  end
-end
   return small_word
 end
