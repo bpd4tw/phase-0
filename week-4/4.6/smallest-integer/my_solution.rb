@@ -12,18 +12,15 @@
 
 # Your Solution Below
 def smallest_integer(list_of_nums)
-  min_num = nil
+  min_num=list_of_nums.first
 
   list_of_nums.each do |current_num|
-
-  while current_num < list_of_nums.length
-    current_num = list_of_nums[current_num]
-
-  if min_num == nil
-    min_num = current_num
-  elsif min_num < current_num
-    min_num = current_num
+   if list_of_nums.nil?
+      return nil
+      end
+   if current_num < min_num
+      min_num = current_num
+      end
   end
-end
   return min_num
 end
