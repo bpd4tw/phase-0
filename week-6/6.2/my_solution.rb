@@ -18,7 +18,7 @@ class Die
     @labels = labels
     @sides = labels.length
     if @labels.empty?
-      raise ArgumentError.new("Only whole numbers greater than 1 will be accepted")
+      raise ArgumentError.new("Please input an array that isn't empty")
     end
   end
 
