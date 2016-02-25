@@ -39,7 +39,7 @@ p my_die.roll
 # Refactored Solution
 
 class Die
-  attr_reader :@sides
+  attr_reader :sides
   def initialize(labels)
     @labels = labels
     @sides = labels.length
