@@ -186,6 +186,72 @@ puts
 new_game.display
 end
 
+#Refactored-refactored solution
+class BingoBoard
+  attr_reader :board
+
+  def initialize(board)
+    @board = board
+    @game_header = ["B", "I", "N", "G", "O"]
+  end
+
+  def call
+    @letter = 'B'#@game_header.sample
+    @number = 12#rand(1..99)
+    @column_index = @game_header.index(@letter)
+    puts "Mark #{@letter}#{@number}!"
+  end
+
+  def check
+    board.each do |row|
+      if row[@column_index] == @number
+        row[@column_index] = " X"
+      end
+    end
+  end
+
+  def display
+    puts "B  I  N  G  O\n--------------"
+    board.each do |nested_array|
+      puts nested_array.join(" ")
+     end
+   end
+  end
+
+#   class BingoCall
+#     def letter
+#     ["B", "I", "N", "G", "O"].sample
+#     end
+
+#     def number
+#       rand(1..9)
+#     end
+#   end
+# end
+
+
+#DRIVER CODE (I.E. METHOD CALLS) GO BELOW THIS LINE
+board = [[12, 29, 88, 45, 83],
+        [29, 61, 76, 64, 72],
+        [85, 82, 16, 84, 51],
+        [44, 32, 94, 22, 17],
+        [72, 73, 53, 59, 91]]
+
+new_game = BingoBoard.new(board)
+# 5.times do
+new_game.call
+puts
+p new_game.check
+puts
+new_game.display
+# end
+
+
+
+# puts [1,2,3]
+# puts "Goodbye"
+
+
 #Reflection
 # How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
 #It wasn't actually too bad pseudocing this challenge. It was nice to have the instructions broken down on canvas. I simply went method by method for what needed to be done. In terms of my own pseudocode style, I think it's alright. I'm trying to work on it and use more keywords like "if" and "else."
