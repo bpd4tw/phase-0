@@ -24,7 +24,7 @@ SELECT region_name FROM regions WHERE region_name LIKE '%central%';
 SELECT region_name, state_name FROM regions INNER JOIN states ORDER BY region_id ASC;
 
 <!-- Release 6 - Schema Design -->
-![Schema Design](/screen_shot.png)
+![Schema Design](screen_shot.png)
 
 <!-- Reflection -->
 
