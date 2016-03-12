@@ -1,10 +1,10 @@
 ##Release 2
-![one_to_one_schema](../imgs/one_to_one.png)
+![one_to_one_schema](imgs/one_to_one.png)
 
 The relationship represented above is one to one because, for a given child in a nuclear family, there is only one mother. Like all one to one relationships, I could have simply created a field for mother_name in the child table rather than making an entriely seperate table. Also, this accounts for the mother field being null. If the child's biological mother is not involved in family life, the mother field could be left empty. I could have specified this field a bit more with present_mother and present_father if I had desired.
 
 ##Release 4
-![many_to_many_schema](../imgs/many_to_many.png)
+![many_to_many_schema](imgs/many_to_many.png)
 
 ##Release 6
 What is a one-to-one database?
